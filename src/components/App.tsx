@@ -24,7 +24,6 @@ export class App extends React.Component {
       }
     }).then(response => {
       this.setState({ images: response.data.results });
-      console.log(response.data)
     });
   };
 

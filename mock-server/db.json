@@ -1,0 +1,36 @@
+{
+  "streams": [
+    {
+      "title": "asdas",
+      "description": "asdas",
+      "id": 1
+    },
+    {
+      "title": "test",
+      "description": "test",
+      "id": 2
+    },
+    {
+      "title": "add",
+      "description": "dad",
+      "id": 3
+    },
+    {
+      "title": "xD",
+      "description": "xD",
+      "id": 4
+    },
+    {
+      "title": "asdasd",
+      "description": "asdasdas",
+      "userId": "112488992951729437234",
+      "id": 5
+    },
+    {
+      "title": "www",
+      "description": "wwwqqq",
+      "userId": "112488992951729437234",
+      "id": 6
+    }
+  ]
+}

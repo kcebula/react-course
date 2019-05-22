@@ -8,6 +8,7 @@
     "@types/react": "16.8.17",
     "@types/react-dom": "16.8.4",
     "axios": "^0.18.0",
+    "flv.js": "^1.5.0",
     "lodash": "^4.17.11",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -24,8 +25,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "run-p start dev-server",
-    "dev-server": "json-server -p 3001 -w mock-server/db.json"
+    "dev": "run-p start dev-server media-server",
+    "dev-server": "json-server -p 3001 -w mock-server/db.json",
+    "media-server": "node media-server"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,6 +50,7 @@
     "@types/react-router-dom": "^4.3.3",
     "@types/redux-form": "^8.1.1",
     "json-server": "^0.14.2",
+    "node-media-server": "^2.1.0",
     "npm-run-all": "^4.1.5",
     "redux-devtools-extension": "^2.13.8"
   }
